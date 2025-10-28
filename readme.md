@@ -1,4 +1,46 @@
-SSVEP BCI Classification (Team G18)
+# SSVEP BCI Classification (Team G18)
+
+## Project Overview
+
+This project was developed for the IEEE 2025 Hackathon by Team G18, focusing on **Brain-Computer Interface (BCI) technology using Steady-State Visual Evoked Potentials (SSVEPs)**. Our team built a complete machine learning pipeline that processes raw EEG signals to classify which visual stimulus a user is focusing on.
+
+### What We Built
+
+We created an end-to-end SSVEP BCI classification system that:
+
+- **Processes raw EEG data** from SSVEP experiments where subjects focus on LED stimuli flickering at different frequencies (9Hz, 10Hz, 12Hz, and 15Hz)
+- **Implements advanced signal processing** including band-pass filtering, notch filtering, and epoching to extract meaningful neural signals
+- **Develops sophisticated neural network architectures** including a lightweight 1D CNN (TinyEEGNet) and a novel time-frequency two-branch CNN that combines temporal and spectral features
+- **Achieves real-time classification** through sliding window segmentation, enabling responsive BCI applications
+- **Provides comprehensive visualization tools** for understanding EEG signal characteristics and model performance
+
+### Technical Implementation
+
+Our solution demonstrates expertise in:
+- **Neuroscience & Signal Processing**: Applied MNE-Python for professional-grade EEG preprocessing
+- **Deep Learning**: Designed custom CNN architectures optimized for EEG signal classification
+- **Data Science**: Implemented robust data augmentation and cross-validation strategies
+- **Real-time Systems**: Created efficient sliding window segmentation for practical BCI deployment
+
+The final implementation achieves high classification accuracy on subjects' SSVEP responses, showing the feasibility of using this technology for assistive communication, neuroprosthetics, and human-computer interaction applications.
+
+### Team G18 Members
+
+- **Haocheng Wu** 
+- **Mohammadreza Behbood** 
+- **Soukaina Hamou** 
+- **Nathan Yu**
+- **Jeronimo Sanchez Santamaria** 
+- **Flora Santos** 
+- **Anaya Yorke** 
+
+## Project Showcase
+
+Our team also prepared a comprehensive presentation demonstrating the SSVEP BCI Project:
+- **Video Demo**: `presentation/SSVEP-18.mp4` - Complete walkthrough
+---
+
+## Technical Details
 
 Analyze an SSVEP EEG dataset and build a full pipeline that covers preprocessing, segmentation, modeling, and evaluation. The final, maintained code lives in the notebook:
 
